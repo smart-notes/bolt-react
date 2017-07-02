@@ -1,4 +1,5 @@
-import React, { PropTypes, Component } from 'react';
+import React, { Component } from 'react';
+// import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
 import Temp from '../TempComp';
@@ -13,7 +14,7 @@ class App extends Component {
     // state = {}
     
   render() {
-    const { className, ...props } = this.props;
+    const { className } = this.props;
     return (
       <div className={classnames('App', className)}>
         <div className="App-header">

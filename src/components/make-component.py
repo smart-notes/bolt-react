@@ -28,7 +28,8 @@ else:
     #create index.js
     fpath = "./" + component + "/index.js"
     file = open(fpath, "w")
-    index_js_template = """import React, { PropTypes, Component } from 'react';
+    index_js_template = """import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 import classnames from 'classnames';
 
 import './style.css';

@@ -1,4 +1,5 @@
 # Bolt React
+[![Build Status](https://travis-ci.org/smart-notes/bolt-react.svg?branch=master)](https://travis-ci.org/smart-notes/bolt-react)
 
 Bolt React is a react-based framework that runs based on express and is used to render smart notes
 

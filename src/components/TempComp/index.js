@@ -43,8 +43,8 @@ export default class TempComponent extends Component {
         </h1>
         <section>
           {
-            this.state.peeps.map((person) => {
-              return (<div>
+            this.state.peeps.map((person, idx) => {
+              return (<div key={idx}>
                 <h3>First: {person.firstname}</h3>
                 <h3>Last: {person.lastname}</h3>
                 </div>)

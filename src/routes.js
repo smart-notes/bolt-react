@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import App from './components/App';
 import About from './components/About';
 import Temp from './components/TempComp';
+import NavBar from './components/NavBar';
 import NotFound from './components/NotFound';
 
 const Routes = (props) => (
@@ -12,6 +13,7 @@ const Routes = (props) => (
       <Route path="/" component={App} />
       <Route path="/about" component={About} />
       <Route path="/temp" component={Temp} />
+      <Route path="/navbar" component={NavBar}/>
       <Route path="*" component={NotFound} />
     </Switch>
   </BrowserRouter>
